@@ -2,7 +2,7 @@ import axios, { AxiosInstance } from "axios";
 
 // creando instancia de axios
 const axiosInstance: AxiosInstance = axios.create({
-  baseURL: "http://apitest.cargofive.com/api/",
+  baseURL: "https://apitest.cargofive.com/api/",
   timeout: 30000,
   headers: {
     "Content-Type": "application/json",
